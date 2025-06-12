@@ -32,9 +32,13 @@ An interactive dashboard built with Streamlit to explore and visualize the Titan
 ```bash
 git clone https://github.com/tquang1910/Titanic_DashBoard.git
 cd Titanic_DashBoard
+```
 
+```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+```
+```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
